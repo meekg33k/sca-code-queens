@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router": "^5.1.2",
@@ -17,7 +14,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
@@ -41,6 +37,11 @@
     "@storybook/addon-links": "^5.3.10",
     "@storybook/addons": "^5.3.10",
     "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.10"
+    "@storybook/react": "^5.3.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
   }
 }
