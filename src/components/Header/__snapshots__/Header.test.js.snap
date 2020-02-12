@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshot for different level heading should match the H1 snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Header snapshot for different level heading should match the H2 snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Header snapshot for different level heading should match the H3 snapshot 1`] = `ShallowWrapper {}`;
