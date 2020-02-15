@@ -8,8 +8,8 @@ import Header from './components/Header/index'
 const App = () => {
   return (
     <div className='app'>
+    <Header heading='This is a heading' size={3}/>
     <Routes />
-    <Header heading='This is the he' size={3}/>
     </div>
   );
 }
