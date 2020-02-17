@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from "../../components/Header/index";
 
 export const LandingPage = () => {
 	return (
-		<h1>This is the landing page</h1>
+		<div className='landingPage'>
+			<Header heading='This is the landing page'/>
+		</div>
+		
 	)
 }
 
