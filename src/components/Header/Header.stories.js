@@ -16,7 +16,7 @@ storiesOf('Text', module)
 	)
 	.add('Header', () => (
     <Header 
-    heading={text('text', 'Sample text')} 
-    size={number('heading-level', '2')} 
+    heading={text('heading', 'Sample text')} 
+    size={number('size', '2')} 
     color={text('color', 'green')} />
 	));
