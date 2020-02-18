@@ -10,6 +10,7 @@ initialize {
       Object {
         "attribs": Object {
           "class": "heading",
+          "style": "color:green",
         },
         "children": Array [
           Object {
@@ -28,9 +29,11 @@ initialize {
         "type": "tag",
         "x-attribsNamespace": Object {
           "class": undefined,
+          "style": undefined,
         },
         "x-attribsPrefix": Object {
           "class": undefined,
+          "style": undefined,
         },
       },
     ],
