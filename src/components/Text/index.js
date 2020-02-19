@@ -1,15 +1,15 @@
-import React from "react"
+import React from "react";
+import './Text.css';
 
-//functional component
-
+//<Text text='Sample text' color='green' size="small" />
 const Text = (props) => {
-   const { text } = props
-   //const text = props.text
-
-    return (
-        <p>{text}</p>
-
-    )
+  const { text, color, size } = props;
+  //size=['small', 'medium', 'large']
+  //        20px      32px      40px
+  
+  const className = `${color} ${size}`; // 'green small'
+  return (
+    <p className={className}>{text}</p>
+  )
 }
-
-export default Text
+export default Text;
