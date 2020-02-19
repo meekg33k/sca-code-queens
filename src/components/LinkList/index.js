@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class LinkList extends Component {
     constructor(props){
@@ -10,7 +11,7 @@ export default class LinkList extends Component {
     }
     render() {
         let list = this.state.links.map(link => {
-        return <li  key={link} ><a href="#">{link}</a></li>
+        return <li key={link} ><Link to={`${link}`} >{link}</Link></li>
         })
         return(
             <ul className="linkList">
