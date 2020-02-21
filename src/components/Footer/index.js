@@ -1,23 +1,33 @@
 import React, { Component } from "react";
 
-import LinkList from "../LinkList";
+import List from "../List";
+import Header from "../header";
 
-export default class Footer extends Component {
-    constructor(props){
-        super(props);
-
-        this.state = {
-            categories: ["All events", "Weddings", "Birthdays", "Karoake", "Clubs", "Get togethers"],
-            resources: [],
-            quickLinks: []
-        }
+const Footer = () => {
+    let links = {
+        Categories: ["All events", "Weddings", "Birthdays", "Karoake", "Clubs", "Get togethers"],
+        Resources: ["Media resources", "Terms & conditions", "Privacy policy"],
+        QuickLinks: ["Blogs", "Company", "Pricing"]
     }
-    render(){
+
+        let group = Object.entries(links).forEach(([key, value]) =>{
+            console.log(key, value);
+           
+
+        // let linkGroup = group.forEach(group => {
+        //     console.log(group)
+        //     // return(
+        //     // // <h3>{group}</h3>
+        //     // // // <LinkList link={group.value}/>
+        //     // )
+        })
         return(
             <footer>
-                <LinkList link={this.state.categories}/>
+                {group}
+                <List links={links.Categories}/>
             </footer>
         )
-    }
 
 }
+
+export default Footer
