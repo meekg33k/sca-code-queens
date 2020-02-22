@@ -1,6 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { withInfo } from '@storybook/addon-info';
+import { text } from "@storybook/addon-knobs";
 import LandingPage from './index';
 
 
@@ -14,5 +16,5 @@ storiesOf('LandingPage', module)
 		return <div>{story()}</div>
 	})
 	.add('Landing page', () => (
-		<LandingPage />
+		<LandingPage onClick={action('clicked')} text={text('Text', 'Sample text')} />
 	));
