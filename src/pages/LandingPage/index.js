@@ -1,10 +1,11 @@
 import React from 'react';
-import Header from "../../components/Header/index";
+
+import Footer from "../../components/Footer"
 
 export const LandingPage = () => {
 	return (
 		<div className='landingPage'>
-			<Header heading='This is the landing page' color= "green"/>
+			<Footer/>
 		</div>
 		
 	)
