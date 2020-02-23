@@ -1,0 +1,19 @@
+.jumbotron {
+    display: flex;
+    margin: 15px 15px;
+  }
+  
+  .main {
+    flex-basis: 70%;
+    background-color: blue; 
+    height: 60vh;
+  
+  }
+  
+  .photo {
+      background: none;
+    flex-grow: 1;
+    height: 60vh;
+    opacity: 1;
+
+  }
