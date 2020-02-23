@@ -1,0 +1,31 @@
+footer{
+    background: #1ABC9C 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 0% 5% 20% 5% ;
+    padding: 3%;
+    color: white;
+
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    /* color: white; */
+}
+
+.footerLink {
+    display: flex;
+    justify-content: center;
+
+}
+.linkGroup {
+}
+.socials{
+    background-color: white;
+}
