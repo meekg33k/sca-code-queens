@@ -13,12 +13,12 @@ describe ('Text Component render', () => {
         const wrapper = shallow(<Text color='greenish' />);
         expect(wrapper).toMatchSnapshot();
     });
-    
-    it('should match medium fontsize snapshot', () => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 it('should match medium font-size snapshot', () => {
-        const wrapper = shallow(<Text size="medium" />);
+
+    it('should match medium fontsize snapshot', () => {
+        const wrapper = shallow(<Text size='medium' />);
         expect(wrapper).toMatchSnapshot();
-    });
-        
+    })
+     
     it('displays text', () => {
         const wrapper = shallow(<Text text='It is a text' />);
         expect(wrapper.text()).toBe('It is a text');
