@@ -1,10 +1,15 @@
-import React from "react"
+
+import React from "react";
+import './Text.css';
+
 
 const Text = (props) => {
-  const { text } = props
-
+  const { text, color, size } = props;
+  
+  
+  const className = `${color} ${size}`;
   return (
-    <p>{text}</p>
+    <p className={className}>{text}</p>
   )
 }
 
