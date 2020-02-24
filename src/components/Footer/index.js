@@ -39,11 +39,12 @@ const Footer = () => {
         <footer>
             <div className="footerLink">
             {group}
+            <Icon iconLinks={socials} type={"socials"}/>
+
             </div>
             <Text text="Download App"/>
             <Icon iconLinks={platform} type={"platform"}/>
 
-            <Icon iconLinks={socials} type={"socials"}/>
         </footer>
     )
 

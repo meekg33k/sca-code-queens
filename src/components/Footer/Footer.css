@@ -2,49 +2,10 @@ footer{
     background: #1ABC9C 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
-    margin: 0% 5% 20% 5% ;
+    margin: 0% 5% 12% 5% ;
     /* change padding to affect how social icons look */
     padding: 2% 2% 2% 4%;
     color: white;
     font-size: 125%;
 
-}
-.linkList{
-    margin: 20px 0px 20px;
-}
-.linkGroup {
-    margin-right: 20%;
-}
-.footerLink {
-    display: flex;
-}
-li{
-    list-style-type: none;
-    line-height: 36px;
-    
-}
-li > a{
-    text-decoration: none;
-    color: white;
-}
-
-.socials{
-    background-color: white;
-    position: absolute;
-    padding: 0px 15px;
-    top: 9%;
-    right: 5%;
-}
-.socials > a > img{
-    width: 30px;
-    padding: 18px 0px;
-    display: block
-
-}
-.platform{
-    margin-top:17px;
-}
-.platform > a > img{
-    width:30px;
-    padding-left: 18px;
 }

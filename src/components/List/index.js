@@ -1,4 +1,5 @@
 import React from "react";
+import "./List.css"
 import { Link } from "react-router-dom";
 
 const List = ({links}) => {
