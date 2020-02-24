@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Routes />
-      <Text color="green" size="medium" text="It is a text" />
+      <Text color="greenish" size="medium" text="It is a text" />
     </div>
   );
 }
