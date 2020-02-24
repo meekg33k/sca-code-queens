@@ -1,3 +1,4 @@
+
 import React from "react";
 import './Text.css';
 
@@ -11,4 +12,5 @@ const Text = (props) => {
     <p className={className}>{text}</p>
   )
 }
+
 export default Text;
