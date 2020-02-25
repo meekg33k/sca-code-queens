@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { withKnobs } from '@storybook/addon-knobs/register';
@@ -12,5 +13,8 @@ storiesOf('Footer', module)
 		})
 	)
 	.add('footer', () => {
-        return <Footer />
+
+        return <Router>
+            <Footer />
+            </Router>
     })
