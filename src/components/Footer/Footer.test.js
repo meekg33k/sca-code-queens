@@ -20,16 +20,9 @@ describe('Footer Component', () =>{
     it('takes Footer snapShots', () => {
 		expect(footer).toMatchSnapshot();
 	});
-    it('test if link component is rendered correctly', ()=>{
+    it('test all links are rendered', ()=>{
         const links = footer.find("ul")
-            expect(links.length).toBe(3)
+            expect(links.length).toBe(5)
     })
-    it('test if Icon component is rendered correctly', ()=>{
-        const icon = footer.find("ul")
-            expect(icon.length).toBe(3)
-    })
-    it('test if Header component is rendered correctly', ()=>{
-        const header = footer.find(".icon")
-            expect(header.length).toBe(2)
-    })
+  
 })
