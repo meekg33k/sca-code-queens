@@ -8,7 +8,6 @@ const App = () => {
   return (
     <div>
       <Routes />
-      <Text text="It is a text" />
     </div>
   );
 }
