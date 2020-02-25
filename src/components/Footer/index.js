@@ -19,7 +19,7 @@ export const platform = [{
         item: <Icon src={android} alt={'android icon'}/>,
         link: "#"
     }]
-export const socials = [{
+export let socials = [{
         item: <Icon src={facebook} alt={'facebook icon'}/>,
         link: 'https://www.facebook.com'
     },{
