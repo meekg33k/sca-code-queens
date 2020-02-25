@@ -4,7 +4,7 @@ footer{
     opacity: 1;
     margin: 0% 5% 12% 5% ;
     /* change padding to affect how social icons look */
-    padding: 3% 2% 8.5% 4%;
+    padding: 3% 2% 5% 4%;
     color: white;
     font-size: 125%;
 
@@ -17,7 +17,7 @@ footer{
 /* This section is for different plaform Icon */
 .download{
     font-size: 18px;
-    margin: -110px 0px 0px 66.5%;
+    margin: -110px 0px 0px 64%;
     
 }
 .download > ul > li{
