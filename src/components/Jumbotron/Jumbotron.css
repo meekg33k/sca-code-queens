@@ -14,7 +14,7 @@
   .photo {
     background-image: url("../../../src/images/jumbotron_image.png");
     background-size: cover;
-    background-position: left;
+    background-position: center;
     border-radius: 50px 0px;
     box-shadow:  -20px 20px #1ABC9C;
     -webkit-box-shadow: -20px 20px #1ABC9C;
