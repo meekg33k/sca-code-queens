@@ -8,7 +8,7 @@ import "./Footer.css"
 
 const android = "./assets/android.svg"
 const apple = "./assets/apple.svg"
-const facebook = "./assets/facebook.svg"
+export const facebook = "./assets/facebook.svg"
 const linkedin = "./assets/linkedin.svg"
 const youtube = "./assets/youtube.svg"
 
