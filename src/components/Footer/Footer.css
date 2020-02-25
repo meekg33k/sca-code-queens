@@ -4,8 +4,60 @@ footer{
     opacity: 1;
     margin: 0% 5% 12% 5% ;
     /* change padding to affect how social icons look */
-    padding: 2% 2% 2% 4%;
+    padding: 3% 2% 8.5% 4%;
     color: white;
     font-size: 125%;
 
+}li{
+    list-style-type: none;
 }
+.footerLink {
+    display: flex;
+}
+/* This section is for different plaform Icon */
+.download{
+    font-size: 18px;
+    margin: -110px 0px 0px 66.5%;
+    
+}
+.download > ul > li{
+    display: inline;
+}
+.download > ul {
+    margin-top:17px;
+}
+.download > .listOfLink > li > a > img{
+    width: 30px;
+    padding-left: 18px;
+}
+/* This section is for different social media Icon */
+.footerLink > ul {
+    background-color: white;
+    position: absolute;
+    padding: 10px 15px;
+    top: 9%;
+    right: 5%;
+}
+.footerLink > .listOfLink > li > a > img{
+    width: 30px;
+    padding: 18px 0px;
+    display: block
+}
+/* This section is for List of Links e.g blog */
+.linkGroup > ul > li > a{
+    text-decoration: none;
+    color: white;
+    line-height: 36px;
+    font-size: 18px;
+}
+/* inserts space before every list */
+.linkGroup > .listOfLink{
+    margin: 20px 0px 20px;
+}
+/* inserts space after every list */
+.linkGroup {
+    margin-right: 21%;
+}
+
+
+
