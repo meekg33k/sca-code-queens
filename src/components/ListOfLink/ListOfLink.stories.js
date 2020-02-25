@@ -1,5 +1,5 @@
 import React from 'react';
-// import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { withKnobs, array} from "@storybook/addon-knobs";
@@ -17,5 +17,7 @@ storiesOf('ListOfLink', module)
 		withKnobs() 
 	)
 	.add('ListOfLink', () => (
-		<ListOfLink items={array('create link', ['link1'])}/>
+		<Router>
+		<ListOfLink item={array('create link', ['link1'])}/>
+		</Router>
 		));
