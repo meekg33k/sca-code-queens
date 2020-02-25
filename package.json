@@ -13,7 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "coverage": "react-scripts test --coverage",
+    "coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
@@ -23,7 +23,9 @@
   },
   "jest": {
     "coveragePathIgnorePatterns": [
-      ".stories.js"
+      ".stories.js",
+      "serviceWorker.js",
+      "src/index.js"
     ]
   },
   "browserslist": {
