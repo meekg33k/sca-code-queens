@@ -1,14 +1,8 @@
 import React from "react";
 import "./Icon.css"
 
-
-const Icon = ({ iconLinks, type }) => {  
-    
-    return(
-        <div className={`icon ${type}`}>
-        {iconLinks.map(({imgPath, url, alt}) => <a key={imgPath} href={url}><img src={imgPath} alt={alt}/></a>)}
-        </div>        
-    )
+const Icon= ({src, alt}) => {
+    return( <img src={src} alt={alt} />)
 }
 
 export default Icon
