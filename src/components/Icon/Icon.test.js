@@ -1,35 +1,28 @@
 import React from "react"
 import { mount, shallow } from 'enzyme';
+import { facebook } from "../Footer/"
 
 import Icon from "./"
 
-let iconLinks = [{imgPath: "./assets/apple.svg", url: '#', alt: 'apple icon'}];
-let type = "platform";
+let src = facebook; let alt="facebook";
 
-
-let setUp = (prop= {}) =>{
-    return shallow(<Icon {...prop}/>)
+let setUp = () =>{
+    return shallow(<Icon src={src} alt={alt} />)
 }
 
 describe('Icon Component', () =>{
 
     let icon
-    beforeEach(()=>{ icon = setUp({iconLinks, type}); })
+    beforeEach(()=>{ icon = setUp(); })
 
     it('should match Icon snap shot', () =>{
+        console.log(icon.debug())
         expect(icon).toMatchSnapshot();
     })
     it('should render icon image correctly', ()=>{
         const image = icon.find('img');
 
         expect(image.length).toBe(1)
-    })
-    it('checkes that the node with className exists', () =>{
-        const nodeClass = icon.find('.icon')
-        const typeClass = icon.find(`.${type}`)
-
-        expect(nodeClass.length).toBe(1)
-        expect(typeClass.length).toBe(1)
     })
 })
 
