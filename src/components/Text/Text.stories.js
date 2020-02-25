@@ -16,5 +16,9 @@ storiesOf('Text', module)
 		withKnobs() //allows you to interact with the component in Storybook
 	)
 	.add('Text', () => (
-		<Text text={text('text', 'Sample text')} />
+		<Text 
+		text={text('text', 'Sample text')} 
+		size={text('size', 'small')}
+		color={text('color', 'greenish')} />
 	));
+

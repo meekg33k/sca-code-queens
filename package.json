@@ -23,7 +23,9 @@
   },
   "jest": {
     "coveragePathIgnorePatterns": [
-      ".stories.js"
+      ".stories.js",
+      "serviceWorker.js",
+      "src/index.js"
     ]
   },
   "browserslist": {

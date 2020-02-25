@@ -1,22 +1,20 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { linkTo } from '@storybook/addon-links';
 import { withInfo } from '@storybook/addon-info';
 import {withKnobs, text } from "@storybook/addon-knobs";
-import Text from './index';
+import Jumbotron from './index';
 
 
-storiesOf('Text', module)
+storiesOf('Jumbotron', module)
 	.addDecorator(
 		withInfo({
-			text: "This is a Text Component"
+			text: "This is the Jumbotron Component"
 		})
 	)
-    .addDecorator(
-        withKnobs()
-    )
-	.addDecorator(story => {
-		return <div>{story()}</div>
-	})
-	.add('Text', () => (
-		<Text text={text('Text', 'Demo Text')} />
-	));
+	.addDecorator(
+		withKnobs()
+	)
+	.add('Jumbotron', () => <Jumbotron />)
+	//.add('Jumbotron', () => <Jumbotron showApp={linkTo('Text')} />)
+	.add('Jumbotron', () => <Jumbotron />);

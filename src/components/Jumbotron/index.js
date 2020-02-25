@@ -14,8 +14,8 @@ const Jumbotron =() => {
     <div className="jumbotron">
         <div className="main">  
             <div className="words"></div>
-                <Header heading="Control the vibe at events you attend" color="green" size={2}/>
-                <Text text= "Take control of the party, get a clue of the DJ playing, their playlist and vote for song you wish to hear." size="small" />
+                <Header heading="Control the vibe at events you attend" color="#1ABC9C" size={1}/>
+                <Text text= "Take control of the party, get a clue of the DJ playing, their playlist and vote for song you wish to hear." size="small" color="greyish" />
             <div className="search"></div>
         </div>
         <div className="photo">

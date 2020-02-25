@@ -10,7 +10,8 @@ const App = () => {
     
     <div>
       <Routes />
-      <Text text="It is a text" />
+      <Text color="greenish" size="medium" text="It is a text" />
+
       <Jumbotron />
       
     </div>
