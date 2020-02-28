@@ -12,9 +12,4 @@ storiesOf('Jumbotron', module)
 			text: "This is the Jumbotron Component"
 		})
 	)
-	.addDecorator(
-		withKnobs()
-	)
-	.add('Jumbotron', () => <Jumbotron />)
-	//.add('Jumbotron', () => <Jumbotron showApp={linkTo('Text')} />)
 	.add('Jumbotron', () => <Jumbotron />);
