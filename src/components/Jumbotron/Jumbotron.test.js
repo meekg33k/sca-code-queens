@@ -17,7 +17,6 @@ describe ('Jumbotron Component render', () => {
     it('renders Text with text', () => {
         const wrapper = mount(<Jumbotron />);
         const textText = wrapper.find('.greyish');
-        console.log(wrapper.debug());
         expect(textText.text()).toMatch('Take control of the party');
     });
 
