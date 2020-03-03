@@ -1,8 +1,7 @@
-import React from 'react';
-import './App.css';
-import Routes from './routes';
-import Text from './components/Text/index';
-
+import React from "react";
+import "./App.css";
+import Routes from "./routes";
+import Text from "./components/Text/index";
 
 const App = () => {
   return (
@@ -11,6 +10,6 @@ const App = () => {
       <Text color="greenish" size="medium" text="It is a text" />
     </div>
   );
-}
+};
 
 export default App;
