@@ -1,24 +1,30 @@
 .greenish {
-    color: #1ABC9C;
+  color: #1abc9c;
+}
+
+.greyish {
+  color: #7f8c8d;
 }
 
 .white {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .extrasmall {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .small {
-    font-size: 28px;
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .medium {
-    font-size: 32px;
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .large {
-    font-size: 42px;
+  font-size: 42px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
