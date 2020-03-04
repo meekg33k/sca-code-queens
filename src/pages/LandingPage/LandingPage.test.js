@@ -1,15 +1,17 @@
 import React from 'react';
+import Jumbotron from "../../components/Jumbotron";
 import LandingPage from './index';
-import { render } from 'enzyme';
+import { shallow } from 'enzyme';
 
 describe('Landing Page render', () => {
-	it('renders correctly', () => {
-		const wrapper = render(<LandingPage />);
-		expect(wrapper).toMatchSnapshot();
-	});
+  const wrapper = shallow(<LandingPage />);
 
-	it('displays the landing page', () => {
-		const wrapper = render(<LandingPage />);
-		expect(wrapper.text()).toBe('This is the landing page');
-	});
+  it('renders correctly', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('renders the Jumbotron', () => {
+    const JumbotronComponent = wrapper.find(Jumbotron);
+    expect(JumbotronComponent).toHaveLength(1);
+  });
 });

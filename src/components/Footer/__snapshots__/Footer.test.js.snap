@@ -19763,7 +19763,9 @@ initialize {
           },
           "children": Array [
             Object {
-              "attribs": Object {},
+              "attribs": Object {
+                "class": "undefined undefined",
+              },
               "children": Array [
                 Object {
                   "data": "Download App",
@@ -20007,8 +20009,12 @@ initialize {
               "parent": [Circular],
               "prev": null,
               "type": "tag",
-              "x-attribsNamespace": Object {},
-              "x-attribsPrefix": Object {},
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
             },
             Object {
               "attribs": Object {
@@ -20231,7 +20237,9 @@ initialize {
               "next": null,
               "parent": [Circular],
               "prev": Object {
-                "attribs": Object {},
+                "attribs": Object {
+                  "class": "undefined undefined",
+                },
                 "children": Array [
                   Object {
                     "data": "Download App",
@@ -20247,8 +20255,12 @@ initialize {
                 "parent": [Circular],
                 "prev": null,
                 "type": "tag",
-                "x-attribsNamespace": Object {},
-                "x-attribsPrefix": Object {},
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
               },
               "type": "tag",
               "x-attribsNamespace": Object {
@@ -20288,7 +20300,9 @@ initialize {
         },
         "children": Array [
           Object {
-            "attribs": Object {},
+            "attribs": Object {
+              "class": "undefined undefined",
+            },
             "children": Array [
               Object {
                 "data": "Download App",
@@ -20532,8 +20546,12 @@ initialize {
             "parent": [Circular],
             "prev": null,
             "type": "tag",
-            "x-attribsNamespace": Object {},
-            "x-attribsPrefix": Object {},
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
           },
           Object {
             "attribs": Object {
@@ -20756,7 +20774,9 @@ initialize {
             "next": null,
             "parent": [Circular],
             "prev": Object {
-              "attribs": Object {},
+              "attribs": Object {
+                "class": "undefined undefined",
+              },
               "children": Array [
                 Object {
                   "data": "Download App",
@@ -20772,8 +20792,12 @@ initialize {
               "parent": [Circular],
               "prev": null,
               "type": "tag",
-              "x-attribsNamespace": Object {},
-              "x-attribsPrefix": Object {},
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
             },
             "type": "tag",
             "x-attribsNamespace": Object {
