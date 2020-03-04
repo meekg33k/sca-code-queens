@@ -1,13 +1,14 @@
 import React from 'react';
-
-import Footer from "../../components/Footer"
+import Jumbotron from "../../components/Jumbotron";
+import Footer from "../../components/Footer";
 
 export const LandingPage = () => {
 	return (
 		<div className='landingPage'>
-			<Footer/>
+			<Jumbotron />
+			<Footer />
 		</div>
-		
+
 	)
 }
 

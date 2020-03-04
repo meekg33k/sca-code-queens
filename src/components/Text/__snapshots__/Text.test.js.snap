@@ -1,3 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Text Component render renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Text Component render should match greenish color snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Text Component render should match medium fontsize snapshot 1`] = `ShallowWrapper {}`;
