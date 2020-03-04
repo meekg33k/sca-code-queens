@@ -1,0 +1,31 @@
+.greenish {
+    color: #1ABC9C;
+}
+
+.greyish {
+    color: #7F8C8D;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.extrasmall {
+    font-size: 18px;
+}
+
+.small {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.medium {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.large {
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+

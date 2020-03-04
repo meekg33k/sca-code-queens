@@ -1,8 +1,14 @@
 import React from 'react';
+import Jumbotron from "../../components/Jumbotron";
+import Footer from "../../components/Footer";
 
 export const LandingPage = () => {
 	return (
-		<h1>This is the landing page</h1>
+		<div className='landingPage'>
+			<Jumbotron />
+			<Footer />
+		</div>
+
 	)
 }
 
