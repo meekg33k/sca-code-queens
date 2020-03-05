@@ -1,7 +1,6 @@
 .greenshadow {
-box-shadow:  -30px 30px #1ABC9C;
--webkit-box-shadow: -10px 10px #1ABC9C;
--moz-box-shadow: -10px 10px #1ABC9C;
-border-radius: 50px 0px;
-
+  box-shadow: -30px 30px #1abc9c;
+  -webkit-box-shadow: -10px 10px #1abc9c;
+  -moz-box-shadow: -10px 10px #1abc9c;
+  border-radius: 50px 0px;
 }
