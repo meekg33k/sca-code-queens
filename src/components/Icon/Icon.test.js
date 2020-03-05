@@ -25,5 +25,3 @@ describe('Icon Component', () =>{
         expect(image.length).toBe(1)
     })
 })
-
-//check property data type
