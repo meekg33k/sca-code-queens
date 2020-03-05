@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "../../components/Header/index";
+import Jumbotron from "../../components/Jumbotron";
+import Footer from "../../components/Footer";
 
 export const LandingPage = () => {
   return (
     <div className="landingPage">
-      <Header heading="This is the landing page" color="green" />
+      <Jumbotron />
+      <Footer />
     </div>
   );
 };

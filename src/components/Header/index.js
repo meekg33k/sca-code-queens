@@ -25,7 +25,7 @@ const Header = ({ heading, color, size }) => {
 
 Header.defaultProps = {
   heading: "Heading",
-  color: "black",
+  color: "white",
   size: 1
 };
 

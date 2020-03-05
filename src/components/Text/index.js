@@ -12,7 +12,7 @@ const Text = props => {
 Text.defaultProps = {
   text: "Text",
   color: "black",
-  size: "small"
+  size: "default"
 };
 
 Text.propTypes = {
