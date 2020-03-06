@@ -1,6 +1,24 @@
 .header {
     display: flex;
     justify-content: flex-end;
+    padding: 1% 5%;
     
 }
 
+.submenu {
+    display: none;
+}
+
+/*import font awesome and when clicked change/toggle .submenu class to .subactive 
+ffa.addEventListener("click", () => {
+    submenu.classList.toggle("nav-active");
+    ----
+    const effect =() => {
+        const submeny = document.addquerySelector(".submenu");
+    }
+
+*/
+
+.subactive {
+    display: block;
+}

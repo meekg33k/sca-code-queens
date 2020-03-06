@@ -1,3 +1,4 @@
+//this is a disorganised file that will be deleted later
 const navbar = ["Home", "Organise", "How it works", "Sign in"]
 <div className="burger">
                 <div className="line1"></div>
@@ -7,7 +8,8 @@ const navbar = ["Home", "Organise", "How it works", "Sign in"]
 
 <nav className="navlinks">{navname}</nav>
 //const navComponent = navItem.map(menu => <Navigation key={menu.id} navname={menu} />)
-
+const submenu = document.addquerySelector(".submenu");
+onClick = {{submenu}.classList.toggle("subactive")}
 
 const navItems = [
     {name:"Home"}, 
