@@ -1,6 +1,5 @@
 import React from "react";
-import "./Navigation.css";
-
+import './Navigation.css';
 
 
 
@@ -12,6 +11,7 @@ const Navigation = ({navname}) => {
         {name:"How it works", subMenus: ['Submenu 3-1', 'Submenu 3-2', 'Submenu 3-3' ]},
         {name:"Sign in", subMenus: ['Submenu 4-1', 'Submenu 4-2', 'Submenu 4-3' ]}
         ]
+
     
     return (
         <header className="header">
@@ -21,6 +21,7 @@ const Navigation = ({navname}) => {
                         <ul className="menuicon" key = {menuItem.id}><i className="fas fa-caret-down" >{menuItem.name}</i>
                         {menuItem.subMenus.map(subMenu => {
                             return (<li className="submenu" key={subMenu.id}>{subMenu}</li>)
+                            
                         })}
                         </ul>
                     );
