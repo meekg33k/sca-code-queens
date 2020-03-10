@@ -1,24 +1,23 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    padding: 1% 5%;
+    padding: 5px 5% 55px;
+    margin-bottom: 0px;
     
 }
 
-.submenu {
-    display: none;
+.navList {
+padding: 0px 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #7f8c8d !important;
+font-size: 28px;
 }
 
-/*import font awesome and when clicked change/toggle .submenu class to .subactive 
-ffa.addEventListener("click", () => {
-    submenu.classList.toggle("nav-active");
-    ----
-    const effect =() => {
-        const submeny = document.addquerySelector(".submenu");
-    }
-
-*/
-
-.subactive {
-    display: block;
+.navList > a {
+    text-decoration: none;
 }
+
+.navList > a:hover {
+    color: #1ABC9C
+}
+

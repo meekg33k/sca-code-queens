@@ -113,3 +113,28 @@ class Navigation extends React.Component {
 
 
 export default Navigation
+
+--------------------------------------------
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { mount } from "enzyme";
+
+import Navigation from "./index";
+
+describe("Navigation Component render", () => {
+    it("renders corectly", () => {
+      const wrapper = mount(<Navigation />)
+      expect(wrapper).toMatchSnapshot();
+    });
+    it ("renders links through the NavLink node", () => {
+      const wrapper = mount(<Navigation />);
+      const findNavlink = wrapper.find('NavLink');
+      expect(findNavLink.length).toBe(4);
+    });
+    it ("renders a list of menu", () => {
+      const wrapper = mount(<Navigation/>);
+      const findMenu = wrapper.find("ul");
+      expect(findMenu.text()).toMatch("Home")
+
+    });
+})
