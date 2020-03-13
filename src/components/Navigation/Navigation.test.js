@@ -26,8 +26,11 @@ describe("Navigation Component render", () => {
       expect(findNavLink.length).toBe(4);
     });
     it ("renders a list of menu", () => {
-      const findMenu = nav.find("ul");
-      expect(findMenu.text()).toMatch("Home")
+      const findMenu = nav.find("li");
+      expect(findMenu.at(0).text()).toBe("Home");
+      expect(findMenu.at(1).text()).toBe("Organise");
+      expect(findMenu.at(2).text()).toBe("How it works");
+      expect(findMenu.at(3).text()).toBe("Sign in");
 
     });
 })

@@ -1,4 +1,5 @@
 import React from "react";
+//import PropTypes from "prop-types";
 import './Navigation.css';
 import { NavLink } from "react-router-dom";
 
@@ -9,12 +10,14 @@ const Navigation = ({navname}) => {
     
     return (
         <header className="header">
+            <ul>
              {navItems.map(menuItem => {
-                 return <ul className="navList" key={menuItem.id}>
+                 return <li className="navList" key={menuItem.name}>
                  {<NavLink to={menuItem.url}>{menuItem.name}</NavLink>}
-                 </ul>;
+                 </li>;
              }
             )}
+            </ul>
 
         </header>
     );
