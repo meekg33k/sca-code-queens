@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ListOfLink = ({item}) => {
-    let list
+    let list, url
      list = item.map(link=> {
             if(typeof(link) === "string"){
-                return <li key={link}><Link to={`/${link}`}>{link}</Link></li>
+                url = link.replace(/\s+/g, '')
+                return <li key={link}><Link to={`/${url}`}>{link}</Link></li>
             }else{
                 return <li key={link.link}><a href={link.link}>{link.item}</a></li>
             }
