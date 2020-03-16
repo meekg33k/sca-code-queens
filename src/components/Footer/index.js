@@ -40,7 +40,7 @@ const Footer = () => {
     let group = Object.entries(link[0]).map(([key, value]) => {
         return (
             <div key={key} className="linkGroup">
-                <Header heading={key} size={3} />
+                <Header heading={key} size={3} color={"white"}/>
                 {<ListOfLink item={value}/>}
             </div>
         )
@@ -50,10 +50,13 @@ const Footer = () => {
         <footer>
             <div className="footerLink">
              {group}
+             <span>
              <ListOfLink item={socials}/>
+             </span>
+             
             </div>
             <div className="download">
-                <Text text="Download App"/>
+                <Text text="Download App" size="extrasmall"/>
                 <ListOfLink item={platform}/>
             </div>
         </footer>
