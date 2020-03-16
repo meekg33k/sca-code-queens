@@ -31,17 +31,21 @@ footer{
     padding-left: 18px;
 }
 /* This section is for different social media Icon */
-.footerLink > ul {
+.footerLink > span > ul {
     background-color: white;
     position: absolute;
     padding: 10px 15px;
     top: 9%;
-    right: 5%;
+    left: 97.1%;
 }
-.footerLink > .listOfLink > li > a > img{
+.footerLink > span > .listOfLink > li > a > img{
     width: 30px;
     padding: 18px 0px;
     display: block
+}
+.footerLink {
+    position: relative;
+
 }
 /* This section is for List of Links e.g blog */
 .linkGroup > ul > li > a{

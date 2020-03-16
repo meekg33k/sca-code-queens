@@ -1,0 +1,38 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+input, input:focus, .searchBox::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    background-color: #ECECEC;
+    word-spacing: 0.2em ;
+    padding: 20px 30px;
+    color: white;
+    opacity: 1;
+    font-size: 17.4px;
+}
+
+.search{
+    display: flex;
+}
+.search > button {
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 0px 12px 12px 0px;
+    border: 0px solid #1ABC9C;
+    padding: 0px 31px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.search > button:hover{
+  border-color: #18b495;
+  background-color: #18b495;
+  cursor: pointer;
+}
+
+input:focus, .search > button:focus{
+    outline: none;
+}
+
+.search > input {
+    border: 0px solid #ECECEC;
+    border-radius: 12px 0px 0px 12px;
+}
