@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Button = ({ title }) => {
-  return <buttton>{title}</buttton>;
+  return <button>{title}</button>;
 };
+
 Button.defaultProps = {
   title: "default title"
 };
