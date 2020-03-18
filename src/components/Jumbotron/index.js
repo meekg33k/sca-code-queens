@@ -24,7 +24,7 @@ const Jumbotron = () => {
           color="greyish"
         />
         
-        <SearchBox onSearch={work}/>
+        <SearchBox onSearch={work} buttonTitle={"search"}/>
         </div>
         </div>
       <div className="photo" />
