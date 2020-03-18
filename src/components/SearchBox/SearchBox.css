@@ -8,7 +8,10 @@ input, input:focus, .searchBox::-webkit-input-placeholder {
     color: white;
     opacity: 1;
     font-size: 17.4px;
+    width: 86%;
+    /* width: 350px; */
 }
+
 
 .search{
     display: flex;
