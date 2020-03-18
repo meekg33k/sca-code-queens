@@ -13,6 +13,7 @@ footer{
 }
 .footerLink {
     display: flex;
+    position: relative;
 }
 /* This section is for different plaform Icon */
 .download{
@@ -27,7 +28,8 @@ footer{
     margin-top:17px;
 }
 .download > .listOfLink > li > a > img{
-    width: 30px;
+    width: 100%;
+    max-width: 30px;
     padding-left: 18px;
 }
 /* This section is for different social media Icon */
@@ -36,17 +38,14 @@ footer{
     position: absolute;
     padding: 10px 15px;
     top: 9%;
-    left: 97.1%;
+    right: -24px;
 }
 .footerLink > span > .listOfLink > li > a > img{
     width: 30px;
     padding: 18px 0px;
     display: block
 }
-.footerLink {
-    position: relative;
 
-}
 /* This section is for List of Links e.g blog */
 .linkGroup > ul > li > a{
     text-decoration: none;
