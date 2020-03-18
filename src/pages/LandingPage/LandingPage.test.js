@@ -3,6 +3,7 @@ import { shallow } from "enzyme";
 import Jumbotron from "../../components/Jumbotron";
 import LandingPage from "./index";
 
+
 describe("Landing Page render", () => {
   const wrapper = shallow(<LandingPage />);
 
