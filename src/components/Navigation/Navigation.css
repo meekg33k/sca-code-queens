@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 5% 55px;
+    margin-bottom: 0px;
+    
+}
+
+.navList {
+padding: 0px 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #7f8c8d !important;
+font-size: 28px;
+}
+
+.navList > a {
+    text-decoration: none;
+}
+
+.navList > a:hover {
+    color: #1ABC9C
+}
+

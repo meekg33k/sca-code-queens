@@ -2,18 +2,18 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { storiesOf } from "@storybook/react";
 import { withInfo } from "@storybook/addon-info";
-import Footer from ".";
+import Navigation from ".";
 
-storiesOf("Footer", module)
+storiesOf("Navigation", module)
   .addDecorator(
     withInfo({
-      text: "This is a footer component"
+      text: "This is a Navigation component"
     })
   )
-  .add("footer", () => {
+  .add("Navigation", () => {
     return (
       <Router>
-        <Footer />
+        <Navigation />
       </Router>
     );
   });

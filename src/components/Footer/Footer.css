@@ -1,31 +1,30 @@
-footer{
-    background: #1ABC9C 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    opacity: 1;
-    margin: 0% 5% 12% 5% ;
-    /* change padding to affect how social icons look */
-    padding: 3% 2% 5% 4%;
-    color: white;
-    font-size: 125%;
-
-}li{
-    list-style-type: none;
+footer {
+  background: #1abc9c 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  margin: 0% 5% 12% 5%;
+  /* change padding to affect how social icons look */
+  padding: 3% 2% 5% 4%;
+  color: white;
+  font-size: 125%;
+}
+li {
+  list-style-type: none;
 }
 .footerLink {
     display: flex;
     position: relative;
 }
 /* This section is for different plaform Icon */
-.download{
-    font-size: 18px;
-    margin: -110px 0px 0px 64%;
-    
+.download {
+  font-size: 18px;
+  margin: -110px 0px 0px 64%;
 }
-.download > ul > li{
-    display: inline;
+.download > ul > li {
+  display: inline;
 }
 .download > ul {
-    margin-top:17px;
+  margin-top: 17px;
 }
 .download > .listOfLink > li > a > img{
     width: 100%;
@@ -47,20 +46,17 @@ footer{
 }
 
 /* This section is for List of Links e.g blog */
-.linkGroup > ul > li > a{
-    text-decoration: none;
-    color: white;
-    line-height: 36px;
-    font-size: 18px;
+.linkGroup > ul > li > a {
+  text-decoration: none;
+  color: white;
+  line-height: 36px;
+  font-size: 18px;
 }
 /* inserts space before every list */
-.linkGroup > .listOfLink{
-    margin: 20px 0px 20px;
+.linkGroup > .listOfLink {
+  margin: 20px 0px 20px;
 }
 /* inserts space after every list */
 .linkGroup {
-    margin-right: 21%;
+  margin-right: 21%;
 }
-
-
-

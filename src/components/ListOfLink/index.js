@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const ListOfLink = ({item}) => {
@@ -19,4 +20,13 @@ const ListOfLink = ({item}) => {
     )
 }
 
-export default ListOfLink
+
+ListOfLink.defaultProps = {
+  item: []
+};
+
+ListOfLink.propTypes = {
+  item: PropTypes.instanceOf(Array)
+};
+
+export default ListOfLink;

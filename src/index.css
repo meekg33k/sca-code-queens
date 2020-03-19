@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");
 body {
   margin: 0;
-  font-family: 'Source Sans Pro' ;
+  font-family: "Source Sans Pro";
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }

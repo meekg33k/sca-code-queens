@@ -14,6 +14,17 @@
   font-size: 18px;
 }
 
+.default,
+.small,
+.medium,
+.large {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.default {
+  font-size: 18px;
+}
+
 .small {
   font-size: 28px;
 }
