@@ -19,7 +19,7 @@ Location.defaultProps = {
     location: "Location"
 };
 
-Location.PropTypes = {
+Location.propTypes = {
     name: PropTypes.string,
     location: PropTypes.string
 };

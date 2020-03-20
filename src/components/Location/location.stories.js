@@ -11,8 +11,7 @@ storiesOf("Location", module)
         })
     )
 
-    .addDecorator(
-        withKnobs()
+    .addDecorator(withKnobs()
     )
 
     .add("Location", () => (
