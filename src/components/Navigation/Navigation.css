@@ -1,31 +1,30 @@
 .header {
-    display: flex;
-    justify-content: flex-end;
-    padding: 5px 5% 55px;
-    margin-bottom: 0px;
-    
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 5% 55px;
+  margin-bottom: 0px;
 }
 
 .navList {
-padding: 0px 10px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: #7f8c8d !important;
-font-size: 28px;
-display: inline-block;
+  padding: 0px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  display: inline-block;
 }
 
 .navList > a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #7f8c8d;
 }
 
 .navList > a:hover {
-    color: #1ABC9C
+  color: #1abc9c;
 }
 
 @media (max-width: 740px) {
-    .navList {
-        display: flex;
-        justify-content: flex-start;
-        padding-bottom: 5px;
-    }
+  .navList {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+  }
 }
