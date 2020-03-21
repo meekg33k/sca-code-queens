@@ -1,0 +1,18 @@
+.locationName {
+    margin: 15px 65px 40px 65px;
+}
+
+.nameClass {
+    color: #1abc9c;
+    font-size: 28px;
+}
+
+.locationClass {
+    color: #7F8C8D;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.fa-map-marker { 
+    margin-right: 15px;
+}
