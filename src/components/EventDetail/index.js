@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./EventDetail.css"
 import Header from "../Header/index";
 import Text from "../Text/index";
@@ -35,4 +36,15 @@ const EventDetail = ({about, time, date}) => {
     )
 }
 
+EventDetail.defaultProps = {
+    about: "Party information",
+    time: "20th Jan, 2020",
+    date: "date",
+  };
+  
+  Header.propTypes = {
+    about: PropTypes.string,
+    time: PropTypes.string,
+    date: PropTypes.number
+  };
 export default EventDetail;
