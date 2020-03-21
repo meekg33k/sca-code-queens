@@ -9,25 +9,25 @@ const EventDetail = ({about, time, date}) => {
         <aside className="eventDetails">
         <Header 
         heading={"Event Details:"}
-        color={"grey"}
+        color={"#7F8C8D"}
          size= {2}/>
             <Header
             heading= {"About:"}
-            color={"grey"}
+            color={"#7F8C8D"}
             size= {3}/>
                 <Text 
                  text= {about}
                  size= {"default"}/>
             <Header
             heading= {"Time:"}
-            color={"grey"}
+            color={"#7F8C8D"}
             size= {3}/>
                 <Text
                 text= {time}
                 size= {"default"}/>
             <Header
             heading= {"Date:"}
-            color={"grey"}
+            color={"#7F8C8D"}
             size= {3}/>
                 <Text
                 text= {date}
