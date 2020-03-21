@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "../pages/LandingPage/index";
 import EventPage from "../pages/EventPage/index";
 
+
 const Routes = () => (
   <Router>
     <Switch>
