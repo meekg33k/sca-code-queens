@@ -14,7 +14,8 @@ li {
   list-style-type: none;
 }
 .footerLink {
-  display: flex;
+    display: flex;
+    position: relative;
 }
 /* This section is for different plaform Icon */
 .download {
@@ -27,23 +28,25 @@ li {
 .download > ul {
   margin-top: 17px;
 }
-.download > .listOfLink > li > a > img {
-  width: 30px;
-  padding-left: 18px;
+.download > .listOfLink > li > a > img{
+    width: 100%;
+    max-width: 30px;
+    padding-left: 18px;
 }
 /* This section is for different social media Icon */
-.footerLink > ul {
-  background-color: white;
-  position: absolute;
-  padding: 10px 15px;
-  top: 9%;
-  right: 0;
+.footerLink > span > ul {
+    background-color: white;
+    position: absolute;
+    padding: 10px 15px;
+    top: 9%;
+    right: -24px;
 }
-.footerLink > .listOfLink > li > a > img {
-  width: 30px;
-  padding: 18px 0px;
-  display: block;
+.footerLink > span > .listOfLink > li > a > img{
+    width: 30px;
+    padding: 18px 0px;
+    display: block
 }
+
 /* This section is for List of Links e.g blog */
 .linkGroup > ul > li > a {
   text-decoration: none;
