@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventTag should match snap shot 1`] = `ReactWrapper {}`;
+
+exports[`EventTag snapshot should match snap shot 1`] = `ReactWrapper {}`;
