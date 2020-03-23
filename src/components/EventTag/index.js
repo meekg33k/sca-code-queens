@@ -5,7 +5,9 @@ import Text from "../Text/index";
 import "./EventTag.css";
 
 const EventTag = ({ icon, partyType, attendeeNumber }) => {
-  const attendee = attendeeNumber.toString();
+  
+  let attendee = attendeeNumber ?  attendeeNumber.toString() : false
+  
   return (
       <div className="eventTag">
           <Icon src={icon} alt={`${partyType} icon`} />
