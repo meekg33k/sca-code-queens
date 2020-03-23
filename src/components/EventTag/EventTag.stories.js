@@ -2,7 +2,6 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { withInfo } from "@storybook/addon-info";
 import { withKnobs, text, number } from "@storybook/addon-knobs";
-import { facebook } from "../Footer";
 import EventTag from ".";
 import { peopleIcon } from "../../pages/EventPage/index";
 
@@ -17,13 +16,14 @@ storiesOf("EventTag", module)
   .add("EventTag", () => {
     return <EventTag 
     icon={peopleIcon}
-    attendeeNumber={100}/>;
+    attendeeNumber={number("attendee", 100 )}
+    />;
   })
   .add("your Event tag", () => {
-    const icon = text("path", "./link/to/icon");
-    const attendeeNumber = number("attendeeNumber", 0);
+    const icon = text("path", peopleIcon);
+    const partyType = text("partType", 'people');
 
     return  <EventTag 
     icon={icon}
-    attendeeNumber={attendeeNumber}/> ;
+    partyType={partyType}/> ;
   });
