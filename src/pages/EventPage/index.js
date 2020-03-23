@@ -2,13 +2,21 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
 import EventDetail from "../../components/EventDetail";
-
+import EventTag from "../../components/EventTag";
 import Location from "../../components/Location";
+
+export const peopleIcon = "./assets/people.svg"
 
 export const EventPage = () => {
   return (
     <div className="event-page">
+      
       <Navigation />
+      
+      <EventTag 
+      icon={peopleIcon}
+      attendeeNumber={100}/>
+
       <Location 
         name= "DJ Spinal Take Over" 
         location="Party Club Estate, Alalaba, Lagos" 
