@@ -18,14 +18,13 @@ describe("SearchBox Component", () => {
   });
 
   it("should match snap shot", () => {
-    console.log(searchBox.debug());
 
     expect(searchBox).toMatchSnapshot();
   });
 
   it("renders button with the correct title", () => {
     const button = searchBox.find("button");
-    button.simulate("click");
+    button.simulate("click", search("clicked"))
 
     expect(button.length).toBe(1);
     expect(button.text()).toEqual("button title");
