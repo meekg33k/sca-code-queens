@@ -27,7 +27,7 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "node clean && build-storybook -c .storybook -o dist",
-    "serve-storybook": "node storybookServer"
+    "serve-storybook": "node server/storybookServer"
   },
   "eslintConfig": {
     "extends": "react-app"
