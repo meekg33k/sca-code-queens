@@ -1,6 +1,7 @@
 .jumbotron {
   display: flex;
   margin: 15px 45px;
+  flex-wrap: wrap;
 }
 
 .main {
@@ -11,8 +12,7 @@
 }
 
 .photo {
-
-  background-image: url("../../../src/images/jumbotron_image.png");
+  background-image: url("/assets/jumbotron_image.png");
   background-size: cover;
   background-position: center;
   border-radius: 50px 0px;
@@ -31,6 +31,14 @@ font-size: 19.4px;
 margin: 25px 0px 30px 0px;
 padding-right: 70px;
 }
-.words{
-  padding: 40px;
+
+@media (max-width: 740px) {
+  .photo {
+    order: 1;
+    flex-basis: 100%;
+    margin-left: 10px;
+  }
+  .main {
+    order: 2;
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import { storiesOf } from "@storybook/react";
-import { action } from "@storybook/addon-actions";
 import { withInfo } from "@storybook/addon-info";
 import { text } from "@storybook/addon-knobs";
 import LandingPage from "./index";
@@ -15,8 +15,7 @@ storiesOf("LandingPage", module)
     return <div>{story()}</div>;
   })
   .add("Landing page", () => (
-    <LandingPage
-      onClick={action("clicked")}
-      text={text("Text", "Sample text")}
-    />
+    <Router>
+      <LandingPage text={text("Text", "Sample text")} />
+    </Router>
   ));

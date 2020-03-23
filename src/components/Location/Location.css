@@ -1,0 +1,27 @@
+.locationName {
+  margin: 15px 65px 40px 65px;
+}
+
+.locationName > p:first-child {
+  color: #1abc9c;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 1rem 0;
+}
+
+.locationText {
+  display: flex;
+  align-items: center;
+  color: #7f8c8d;
+  font-size: 22px;
+}
+
+.locationText p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.locationName img {
+  height: 12px;
+  margin-right: 12px;
+}
