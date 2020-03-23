@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 import "./Image.css";
 
 const Image = props => {
-  const { source, height, width, alt, boxshadow } = props;
+  const { source, height, width, alt } = props;
   return (
-    <div className={`${source} ${height} ${width} ${alt} ${boxshadow}`}>
-      <img src={source} height={height} width={width} alt={alt} />
+    //<div className={`${source} ${height} ${width} ${alt}`}>
+    <div className="imageDiv">
+      <img className="imageClass" src={source} height={height} width={width} alt={alt} />
     </div>
   );
 };
