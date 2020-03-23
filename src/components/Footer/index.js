@@ -46,33 +46,39 @@ export const link = [
       "Clubs",
       "Get togethers"
     ],
-    Resources: ["Media resources", "Terms & conditions", "Privacy policy"],
+    Resources: ["Media Resources", "Terms & Conditions", "Privacy Policy"],
     QuickLinks: ["Blogs", "Company", "Pricing"]
   }
 ];
 
-const Footer = () => {
-  const group = Object.entries(link[0]).map(([key, value]) => {
-    return (
-      <div key={key} className="linkGroup">
-        <Header heading={key} size={3} />
-        <ListOfLink item={value} />
-      </div>
-    );
-  });
+const Footer = () => { 
 
-  return (
-    <footer>
-      <div className="footerLink">
-        {group}
-        <ListOfLink item={socials} />
-      </div>
-      <div className="download">
-        <Text text="Download App" />
-        <ListOfLink item={platform} />
-      </div>
-    </footer>
-  );
+    let group = Object.entries(link[0]).map(([key, value]) => {
+        return (
+            <div key={key} className="linkGroup">
+                <Header heading={key} size={3} color={"white"}/>
+                {<ListOfLink item={value}/>}
+            </div>
+        )
+    })
+    
+    return (
+        <footer>
+            <div className="footerLink">
+             {group}
+             <span>
+             <ListOfLink item={socials}/>
+             </span>
+             
+            </div>
+            <div className="download">
+                <Text text="Download App" size="extrasmall"/>
+                <ListOfLink item={platform}/>
+            </div>
+        </footer>
+    )
+
+  
 };
 
 export default Footer;
