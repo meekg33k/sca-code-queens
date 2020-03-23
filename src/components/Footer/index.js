@@ -46,7 +46,7 @@ export const link = [
       "Clubs",
       "Get togethers"
     ],
-    Resources: ["Media resources", "Terms & conditions", "Privacy policy"],
+    Resources: ["Media Resources", "Terms & Conditions", "Privacy Policy"],
     QuickLinks: ["Blogs", "Company", "Pricing"]
   }
 ];

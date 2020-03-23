@@ -4,7 +4,7 @@ import { withInfo } from "@storybook/addon-info";
 import { withKnobs, text, number } from "@storybook/addon-knobs";
 import Header from "./index";
 
-storiesOf("Text", module)
+storiesOf("Header", module)
   .addDecorator(
     withInfo({
       Heading: "This is a header component"

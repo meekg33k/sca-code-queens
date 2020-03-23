@@ -13,8 +13,7 @@
 }
 
 .photo {
-  
-  background-image: url("../../../src/images/jumbotron_image.png");
+  background-image: url("/assets/jumbotron_image.png");
   background-size: cover;
   background-position: center;
   border-radius: 50px 0px;
@@ -32,10 +31,8 @@
     order: 1;
     flex-basis: 100%;
     margin-left: 10px;
-    
   }
   .main {
     order: 2;
   }
-
 }
