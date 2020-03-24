@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+
+.songDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photoCover {
+    flex-basis: 60%;
+}
+
+.eventDetail {
+    flex-basis: 35%;
+}
+
+@media (max-width: 740px) {
+    .eventDetail {
+      order: 1;
+      flex-basis: 100%;
+      margin-left: 45px;
+      margin-top: 15px;
+    }
+    .photoCover {
+      order: 2;
+      flex-basis: 100%;
+      margin-right: 45px;
+    }
+  }

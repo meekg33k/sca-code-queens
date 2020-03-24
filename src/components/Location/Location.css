@@ -1,5 +1,9 @@
 .locationName {
-  margin: 15px 65px 40px 65px;
+  margin-left: 0px;
+  height: 15vh;
+  background: #ECECEC 0% 0% no-repeat padding-box;
+  opacity: 97%;
+  padding: 15px 65px 40px 40px;
 }
 
 .locationName > p:first-child {
@@ -14,6 +18,7 @@
   align-items: center;
   color: #7f8c8d;
   font-size: 22px;
+  font-weight: 600;
 }
 
 .locationText p {
