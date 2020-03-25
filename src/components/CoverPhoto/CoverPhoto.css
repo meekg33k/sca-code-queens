@@ -14,13 +14,13 @@
    margin: 45px;
    font-size: 18px;
    font-weight: 600;
-   /*align-items: center;*/
+  
 }
 
-.coverFirst {
+.firstText {
     margin-right: 10px;
 }
 
-.coverPhoto > img {
-    margin: 15px 0;
-}
+/*.coverPhoto > img {
+    margin: 5px 0; 
+}*/

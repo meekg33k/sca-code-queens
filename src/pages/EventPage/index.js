@@ -14,7 +14,7 @@ export const EventPage = () => {
         name= "DJ Spinal Take Over" 
         location="Party Club Estate, Alalaba, Lagos" 
       />
-      <div className="songDetails">
+      <div className="djDetails">
         <div className="photoCover">
             <CoverPhoto name="DJ Spinal" coverimg="./assets/smiley.jpg" />
         </div>

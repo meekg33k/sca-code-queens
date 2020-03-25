@@ -8,7 +8,7 @@ const CoverPhoto = ({name, coverimg}) => {
     return (
         <div className="coverPhoto">
             <div className="coverText">
-                <div className="coverFirst">
+                <div className="firstText">
                     <Text text="Playing DJ:" color="greyish" size="extrasmall" />
                 </div>
             <Text text={name} color="greyish" size="extrasmall" />
