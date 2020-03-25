@@ -1,11 +1,10 @@
 import React from "react";
 import { mount } from "enzyme";
-import Icon from "../Icon";
 import Text from "../Text";
 import CoverPhoto from "./index";
 
 
-describe("Location Component render", () => {
+describe("CoverPhoto Component render", () => {
     it("renders correctly", () => {
         const wrapper = mount(<CoverPhoto name="name of artiste" />)
         expect(wrapper).toMatchSnapshot();

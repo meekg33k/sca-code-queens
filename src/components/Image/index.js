@@ -14,7 +14,6 @@ const Image = props => {
 
 Image.defaultProps = {
   alt: "image",
-  boxshadow: "greenshadow",
   source: "someimage",
   height: 300,
   width: 300
@@ -22,7 +21,6 @@ Image.defaultProps = {
 
 Image.propTypes = {
   alt: PropTypes.string,
-  boxshadow: PropTypes.string,
   source: PropTypes.string,
   height: PropTypes.number,
   width: PropTypes.number

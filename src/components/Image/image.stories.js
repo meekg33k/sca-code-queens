@@ -15,18 +15,20 @@ storiesOf("Image", module)
         withKnobs()
     )
 
-    .add("Image", () => (
-        <Image
-            source = {text("path", "./link/to/image")}
-            alt={text("alt", "this is an image")}
-            
-        />
-    ))
-
     .add("An image", () => (
         <Image
             source = {text("path", "./assets/smiley.jpg")}
             alt={text("alt", "DJ Spinal")}
             
         />
+    ))
+
+    .add("Image", () => (
+        <Image
+            source = {text("path", "./link/to/image")}
+            alt={text("alt", "this is an image")}
+            
+        />
     ));
+
+    
