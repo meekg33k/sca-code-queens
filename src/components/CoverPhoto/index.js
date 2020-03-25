@@ -13,7 +13,7 @@ const CoverPhoto = ({name, coverimg}) => {
                 </div>
             <Text text={name} color="greyish" size="extrasmall" />
             </div>
-            <Image source={coverimg} alt="cover photo" width="200px" height="200px" />
+            <Image source={coverimg} alt="cover photo" width= {200} height= {200} />
             
         </div>
     )

@@ -11,7 +11,7 @@ const Location = props => {
     <div className="locationName">
       <Text size="small" text={name} />
       <div className="locationText">
-        <Icon src="./assets/location.png" alt="youtube icon" />
+        <Icon src="./assets/location.png" alt="location icon" />
         <Text size="small" text={location} />
       </div>
     </div>

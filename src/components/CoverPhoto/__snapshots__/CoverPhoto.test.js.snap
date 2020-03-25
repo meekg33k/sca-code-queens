@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location Component render renders correctly 1`] = `ReactWrapper {}`;
+
+exports[`Location Component render renders image correctly 1`] = `ReactWrapper {}`;
