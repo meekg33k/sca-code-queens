@@ -11,7 +11,7 @@ describe("CoverPhoto Component render", () => {
     })
 
     it("renders image correctly", () => {
-        const wrapper = mount(<CoverPhoto coverimg="name of artiste" />)
+        const wrapper = mount(<CoverPhoto coverimg="image of artiste" />)
         expect(wrapper).toMatchSnapshot();
     })
 

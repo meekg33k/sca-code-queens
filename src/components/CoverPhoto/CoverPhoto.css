@@ -1,6 +1,6 @@
 .songDetails {
-    background-color: yellow;
-    margin: 15px 0 15px 45px;
+    background-color: red;
+    margin: 15px 0 15px 65px;
     text-align: center;
     border-radius: 10px 10px;
     height: 80vh;
@@ -10,9 +10,8 @@
 }
 
 .coverText {
-    /*display: flex;*/
    display: inline-flex;
-   margin: 45px 0 25px 0;
+   margin: 45px 0 20px 0;
    font-size: 18px;
    font-weight: 600;
   
