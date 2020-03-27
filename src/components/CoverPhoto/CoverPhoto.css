@@ -1,4 +1,5 @@
-.coverPhoto {
+.songDetails {
+    background-color: yellow;
     margin: 15px 0 15px 45px;
     text-align: center;
     border-radius: 10px 10px;
@@ -9,9 +10,9 @@
 }
 
 .coverText {
-    display: flex;
+    /*display: flex;*/
    display: inline-flex;
-   margin: 45px;
+   margin: 45px 0 25px 0;
    font-size: 18px;
    font-weight: 600;
   
@@ -21,6 +22,10 @@
     margin-right: 10px;
 }
 
-/*.coverPhoto > img {
-    margin: 5px 0; 
-}*/
+.djImage {
+    margin-bottom: 20px; 
+}
+
+.likeOrUnlike {
+    display: flex;
+}
