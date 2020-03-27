@@ -7,13 +7,12 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 15px;
-    background-color: yellow;
 }
 
 .photoCover {
     flex-basis: 60%;
     margin-right: 45px;
-    background-color: green;
+    margin-bottom: 15px;
 }
 
 .eventDetail {
@@ -26,11 +25,13 @@ body {
       flex-basis: 100%;
       margin-left: 45px;
       margin-top: 15px;
+      margin-bottom: 15px;
     }
     .photoCover {
       order: 2;
       flex-basis: 100%;
       margin-right: 45px;
+      
       
     }
   }

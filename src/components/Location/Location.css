@@ -1,5 +1,6 @@
 .locationName {
   margin-left: 0px;
+  margin-bottom: 15px;
   height: 15vh;
   background: #ECECEC 0% 0% no-repeat padding-box;
   opacity: 97%;
@@ -10,7 +11,7 @@
   color: #1abc9c;
   font-weight: 600;
   font-size: 28px;
-  margin: 1rem 0;
+  margin: 1rem 0 1rem 1rem;
 }
 
 .locationText {
@@ -29,4 +30,5 @@
 .locationName img {
   height: 12px;
   margin-right: 12px;
+  margin-left: 1rem;
 }
