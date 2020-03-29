@@ -1,19 +1,33 @@
-.eventTag {
+.largeTag {
   background-color: #1abc9c;
-  display: inline-block;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
   padding: 12px;
-  width: 70px;
+  width: 4em;
   border-radius: 10px;
 }
-.eventTag > p {
-  display: inline-block;
+.largeTag > p {
   position: relative;
-  left: 5px;
-  bottom: 5px;
+  left: 2px;
+  bottom: -2px;
 }
-.eventTag > img {
-  position: relative;
-  top: 2px;
-  width: 43%;
-  margin-top: px;
+.smallTag{
+  width: 4.2em;
+  padding: 3px;
+  background-color: #1abc9c;
+  display: flex;
+  border-radius: 5px;
+  justify-items: center;
+  justify-content: center;
+}
+.opac{
+  opacity: 0.5;
+}
+.smallTag > p{
+  font-size: 0.8em !important;
+
+}
+.smallTag > img{
+  width: 1em;
 }

@@ -15,8 +15,19 @@ export const EventPage = () => {
       
       <EventTag 
       icon={peopleIcon}
-      attendeeNumber={100}/>
-
+      attendeeNumber={100}
+      size={"largeTag"}
+      />
+      <EventTag 
+      icon={peopleIcon}
+      attendeeNumber={100}
+      size={"smallTag"}
+      opacity={true}/>
+      <EventTag 
+      icon={peopleIcon}
+      partyType={"wedding"}
+      size={"smallTag"}
+      opacity={false}/>
       <Location 
         name= "DJ Spinal Take Over" 
         location="Party Club Estate, Alalaba, Lagos" 

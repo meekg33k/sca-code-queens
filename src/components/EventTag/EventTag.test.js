@@ -6,7 +6,9 @@ import EventTag from "./index";
 const setUp = () => {
     return mount( <EventTag 
         icon={peopleIcon}
-        attendeeNumber={100}/>);
+        attendeeNumber={100}
+        size={"largeTag"}
+        opacity={true}/>);
   };
 
 describe("EventTag", () => {
