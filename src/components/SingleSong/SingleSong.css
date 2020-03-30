@@ -1,0 +1,37 @@
+.addBorder {
+    margin: 12px;
+}
+.addBorder::before {
+    content:"";
+    display: block;
+    border-bottom: 1px solid green;
+    width: 82%;
+    margin-left: auto;
+}
+
+.addBorder::after {
+    content:"";
+    display: block;
+    border-bottom: 1px solid green;
+    width: 82%;
+    margin-left: auto;
+}
+
+.singleSong {
+    background-color: brown;
+    display: flex;
+    height: 14vh;
+    padding: 8px;
+}
+
+.albumSinger {
+    display: inline-flex;
+}
+
+.songSinger {
+    margin-left: 13px;
+}
+
+.singerName {
+    margin-left: 5px;
+}
