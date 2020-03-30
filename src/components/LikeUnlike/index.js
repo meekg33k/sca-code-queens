@@ -21,8 +21,8 @@ class LikeUnlike extends React.Component {
 
     render () {
         return (
-                <div className= "buttonText"> 
-                    <button onClick = {this.handleClick}>
+                <div className= "buttonCount"> 
+                    <button className= "iconButton" onClick = {this.handleClick}>
                         <Icon src={this.props.source} alt={this.props.alternate}/>
                     </button>
                     <p className="counter">{this.state.count}</p>

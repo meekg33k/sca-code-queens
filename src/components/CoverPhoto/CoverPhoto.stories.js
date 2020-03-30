@@ -17,6 +17,5 @@ storiesOf("CoverPhoto", module)
     .add("CoverPhoto", () => (
         <CoverPhoto
             name={text("name", "name of artiste")}
-            coverimg={text("coverimg","image of artiste")} 
         />
     ));
