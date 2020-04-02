@@ -1,4 +1,7 @@
 .eventDetails{
+    /*margin: 15px 45px 15px 0;
+    height: 40vh; */
+    border-radius: 10px 10px; 
     border: 0px grey solid;
     padding: 25px;
     font-size: 14px;
@@ -10,10 +13,10 @@
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-        /* use flexbox */
-    position: relative;
+        /* use flexbox */ 
+    /* position: relative;    
     left: 50%;
-    bottom: 130%;
+    bottom: 130%; */
 }
 .eventDetails p {
     font-size: 14px !important;

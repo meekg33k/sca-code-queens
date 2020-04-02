@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.djDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.photoCover {
+    flex-basis: 60%;
+}
+
+.eventDetail {
+    flex-basis: 35%;
+}
+
+@media (max-width: 740px) {
+    .eventDetail {
+      order: 1;
+      flex-basis: 100%;
+      margin-left: 45px;
+      margin-top: 15px;
+    }
+    .photoCover {
+      order: 2;
+      flex-basis: 100%;
+      margin-right: 45px;
+    }
+  }
