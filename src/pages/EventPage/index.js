@@ -3,13 +3,33 @@ import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
 import EventDetail from "../../components/EventDetail";
 import CoverPhoto from "../../components/CoverPhoto";
+import EventTag from "../../components/EventTag";
 import Location from "../../components/Location";
 import "./EventPage.css";
+
+export const peopleIcon = "./assets/people.svg"
 
 export const EventPage = () => {
   return (
     <div className="event-page">
+      
       <Navigation />
+      
+      <EventTag 
+      icon={peopleIcon}
+      attendeeNumber={100}
+      size={"largeTag"}
+      />
+      <EventTag 
+      icon={peopleIcon}
+      attendeeNumber={100}
+      size={"smallTag"}
+      opacity={true}/>
+      <EventTag 
+      icon={peopleIcon}
+      partyType={"wedding"}
+      size={"smallTag"}
+      opacity={false}/>
       <Location 
         name= "DJ Spinal Take Over" 
         location="Party Club Estate, Alalaba, Lagos" 
