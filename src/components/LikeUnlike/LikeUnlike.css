@@ -1,0 +1,9 @@
+.iconButton {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.buttonCount {
+    display: flex;
+}
