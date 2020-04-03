@@ -12,10 +12,10 @@ class SingleSong extends React.Component {
         this.state = {
             isPlaying: false,
             time: 0,
-            duration: ""
         }
-
+        this.duration = ""
         this.startTimer = this.startTimer.bind(this)
+        this.stopTimer = this.stopTimer.bind(this)
     }
 
     startTimer = () => {
@@ -25,28 +25,15 @@ class SingleSong extends React.Component {
              time: this.state.time + 1
          }),1000);
     }
-    
-   /* startTimer = () => {
-        this.setState({
-            time: this.state.time,
-            start: Date.now() - this.state.time
-        })
-        this.timer = setInterval(() => this.setState({
-            time: Date.now() - this.state.start
-        }), 1)
-    }*/
 
     stopTimer = () => {
         this.setState({isPlaying: false})
         clearInterval(this.timer)
       }
 
-    /*resetTimer = () => {
-    this.setState({time:0})
-    }*/
-
     render() {
-        
+        //(this.state.time === this.duration) ? this.setState({isPlaying: this.state.isPlaying = false}) : this.setState({isPlaying: this.state.isPlaying = true})
+
         let start = (this.state.time === 0 || this.state.isPlaying === false) ? 
         <button onClick={this.startTimer}>
             <Icon src="./assets/play.png" alt="play button" />
@@ -77,13 +64,5 @@ class SingleSong extends React.Component {
         )
     }
 }
-/*<button onClick={this.startTimer}>
-                            <Icon src="./assets/play.png" alt="play button" />
-                        </button>
-                        <button onClick={this.stopTimer}>
-                            <Icon src="./assets/play.png" alt="stop button" />
-                        </button>
-                        
-                        </div> */
 
 export default SingleSong;
