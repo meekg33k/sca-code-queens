@@ -12,8 +12,8 @@ class SingleSong extends React.Component {
         this.state = {
             isPlaying: false,
             time: 0,
+            isCompleted: false
         }
-        this.duration = ""
         this.startTimer = this.startTimer.bind(this)
         this.stopTimer = this.stopTimer.bind(this)
     }
@@ -29,10 +29,15 @@ class SingleSong extends React.Component {
     stopTimer = () => {
         this.setState({isPlaying: false})
         clearInterval(this.timer)
-      }
+    }
+    
 
     render() {
-        //(this.state.time === this.duration) ? this.setState({isPlaying: this.state.isPlaying = false}) : this.setState({isPlaying: this.state.isPlaying = true})
+        let duration
+        if (this.state.isCompleted === true) {
+            duration = this.state.time;
+            this.setState({isPlaying: false})
+        }
 
         let start = (this.state.time === 0 || this.state.isPlaying === false) ? 
         <button onClick={this.startTimer}>
@@ -41,7 +46,7 @@ class SingleSong extends React.Component {
 
         let stop = (this.state.time !== 0 && this.state.isPlaying === true) ?
         <button onClick={this.stopTimer}>
-            <Icon src="./assets/play.png" alt="play button" />
+            <Icon src="./assets/stop.png" alt="stop button" />
         </button> : null
 
         return (
@@ -55,7 +60,7 @@ class SingleSong extends React.Component {
                         <div className ="singerName">
                             <Text text= {this.props.singer} color= "greyish" size="extrasmall" />
                         </div>
-                        <div>timer: {this.state.time}</div>
+                        <div>timer: {this.state.time} {duration} </div>
                         <div className="buttonTimer"> {start} {stop} </div>
                         
                     </div>
