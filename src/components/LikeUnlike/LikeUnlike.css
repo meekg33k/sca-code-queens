@@ -7,3 +7,8 @@
 .buttonCount {
     display: flex;
 }
+
+.counter {
+    color: #7f8c8d;
+    margin-left: 5px;
+  }

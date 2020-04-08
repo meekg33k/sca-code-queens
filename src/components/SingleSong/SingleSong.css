@@ -4,7 +4,7 @@
 .addBorder::before {
     content:"";
     display: block;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #7f8c8d;
     width: 82%;
     margin-left: auto;
 }
@@ -12,26 +12,79 @@
 .addBorder::after {
     content:"";
     display: block;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #7f8c8d;
     width: 82%;
     margin-left: auto;
 }
 
 .singleSong {
-    background-color: brown;
     display: flex;
     height: 14vh;
     padding: 8px;
+
 }
+
+.songTimer {
+    flex-basis: 90%;
+  
+}
+
 
 .albumSinger {
     display: inline-flex;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
 }
 
 .songSinger {
-    margin-left: 13px;
+    margin-left: 12px;
 }
 
 .singerName {
     margin-left: 5px;
+}
+
+.buttonAndIcon {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 3px 0;
+}
+
+.buttonIcon {
+    margin-left: 12px
+}
+
+.likeOrUnlike {
+    margin-left: 55px;
+    display: flex;
+
+}
+
+.unlike {
+    margin-left: 30px;
+}
+.playStop {
+    margin-left: 5px;
+}
+.iconPlay {
+    display: flex;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.iconStop {
+    display: flex;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.timer {
+    color: #7f8c8d;
+    margin-left: auto;
 }
