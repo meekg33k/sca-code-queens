@@ -22,12 +22,11 @@
 }
 
 .djImage {
-    margin-bottom: 20px; 
+    margin-bottom: 40px;
+    padding: 20px 0; 
 }
 
-.likeOrUnlike {
-    display: flex;
-}
+
 
 @media (max-width: 740px) {
     .songDetails {
